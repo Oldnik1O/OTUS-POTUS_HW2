@@ -6,6 +6,7 @@ package main
 import (
   "testing"
 )
+
 func TestShipTurn(t *testing.T) {
   ship := &Ship{position: Position{X: 5, Y: 5}, direction: Up}
   ship.Turn(true)
